@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    /* fonts*/
+    --Inter: 'Inter', sans-serif;
+    --DMSans: 'DM Sans', sans-serif;
+
+    /* width  */
+    --row-width: 1480px;
+
+    /*  colors  */
+    --blue: #C4DEFD;
+    --darkBlue: #4F9CF9;
+    --solidBlue: #043873;
+    --yellow: #FFE492;
+    --black: #212529;
+    --white: #fff;
+}
+.section-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2-bg{
+    position: absolute;
+    margin-top: 153px;
+    left: 0;
+    opacity: 20%;
+    width: 602px;
+    height: 448px;
+}
+
+.get-more{
+    font-family: var(--Inter);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    color: var(--darkBlue);
+    margin-bottom: 24px;
+}
+.get-more-p {
+    font-family: var(--Inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: var(--darkBlue);
+    margin-bottom: 60px;
+}
+.project-m {
+    font-family: var(--Inter);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;    
+    color: var(--black);
+    position: relative;
+    margin-bottom: 24px;
+}
+.project-m {
+    margin-bottom: 24px;
+}
+.project-m > img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 482.21px;
+    height: 29.38px;
+}
+.project-m-p {
+    font-family: var(--Inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    margin-bottom: 60px;
+
+}
+.btn-section{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 8px;
+    color: var(--white);
+    font-family: var(--Inter);
+    background: var(--darkBlue);
+    font-style: Medium;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+.btn-section.section2{
+    padding: 20px 40px;
+    width: 201px;
+    height: 63px;
+    border-radius: 6px;
+}

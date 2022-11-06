@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    /* fonts*/
+    --Inter: 'Inter', sans-serif;
+    --DMSans: 'DM Sans', sans-serif;
+
+    /* width  */
+    --row-width: 1480px;
+
+    /*  colors  */
+    --blue: #C4DEFD;
+    --darkBlue: #4F9CF9;
+    --solidBlue: #043873;
+    --yellow: #FFE492;
+    --black: #212529;
+    --white: #fff;
+}
+.section-9 {
+    font-family: var(--Inter);
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    align-items: center;
+    vertical-align: top;
+    
+}
+.our-sponsors > img {
+    width: 326.15px;
+    height: 36.56px;
+    left: 160px;
+    bottom: -12px;
+    z-index: -1;
+    position: absolute;
+}
+.right-container.bg-transparent{
+    background-color: transparent;
+}
+.images-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-sponsors {
+    margin-bottom: 100px;
+}
